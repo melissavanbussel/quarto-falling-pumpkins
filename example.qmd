@@ -1,11 +1,9 @@
 ---
-title: "Quarto-falling-pumpkins Example"
+title: "Quarto Falling Pumpkins Example"
 filters:
   - quarto-falling-pumpkins
 ---
 
-## Heading
+## Falling Pumpkins
 
-This filter adds formatting to heading text.
-
-
+When you load the page, falling pumpkins should appear.

@@ -1,13 +1,11 @@
-# Quarto-falling-pumpkins Extension For Quarto
+# Quarto Falling Pumpkins Extension For Quarto
 
-_TODO_: Add a short description of your extension.
+This Quarto extension will add falling pumpkins on your Quarto webpage.
 
 ## Installing
 
-_TODO_: Replace the `<github-organization>` with your GitHub organization.
-
 ```bash
-quarto add <github-organization>/quarto-falling-pumpkins
+quarto add melissavanbussel/quarto-falling-pumpkins
 ```
 
 This will install the extension under the `_extensions` subdirectory.
@@ -15,9 +13,15 @@ If you're using version control, you will want to check in this directory.
 
 ## Using
 
-_TODO_: Describe how to use your extension.
+After installing the extension, use the following in your Quarto page. 
+
+---
+title: "My Document"
+format: html
+filters:
+  - quarto-falling-pumpkins
+---
 
 ## Example
 
 Here is the source code for a minimal example: [example.qmd](example.qmd).
-

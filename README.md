@@ -1,6 +1,6 @@
 # Quarto Falling Pumpkins Extension For Quarto
 
-This Quarto extension will add falling pumpkins on your Quarto webpage.
+This Quarto extension will add falling pumpkin confetti on your Quarto webpage.
 
 ## Installing
 
@@ -15,12 +15,14 @@ If you're using version control, you will want to check in this directory.
 
 After installing the extension, use the following in your Quarto page. 
 
+```
 ---
 title: "My Document"
 format: html
 filters:
   - quarto-falling-pumpkins
 ---
+```
 
 ## Example
 
